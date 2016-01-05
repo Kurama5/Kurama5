@@ -1,0 +1,600 @@
+<form action="Samples" id="form1" method="post">
+<div class="sw" id="TakeSurveyWrapper">
+		<div id="up1">
+			<div class="stsSurvey" id="pnlSurvey" style="border-top: navy 1px solid; border-right: navy 1px solid; border-bottom: navy 1px solid; text-align: center; border-left: navy 1px solid; border-radius: 10px">
+				<span class="stsSurveyTitleInner" id="lblSurveyTitle">Training Evaluation Survey</span>
+				<div class="sp">
+					<br />
+					<div class="stsPage" id="pnlPage" style="border-top: navy 1px solid; border-right: navy 1px solid; border-bottom: navy 1px solid; text-align: justify; border-left: navy 1px solid; border-radius: 10px">
+						<div class="sp">
+							<div id="pnlTitle">
+								<span class="stsPageDescInner" id="lblIntroduction">Thank you for attending our recent training class. We&rsquo;d like to hear your impression of the various aspects of the training, so that we can continually improve the experience for all attendees.</span><br />
+								&nbsp;</div>
+							<table id="tblQuestions" style="width: 100%">
+								<tbody>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl1" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_1_tblChoices" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">1. </span></td>
+																<td class="at al">
+																	<span class="stsQI">Overall how would you rate the training class?</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<table>
+																		<tbody>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input checked="checked" id="TS_1_TS_1_1_0" name="TS_1$1" type="radio" value="TS_1_1_0" label for="TS_1_TS_1_1_0" />Excellent</span></td>
+																			</tr>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input id="TS_1_TS_1_1_1" name="TS_1$1" type="radio" value="TS_1_1_1" /><label for="TS_1_TS_1_1_1">Good</label></span></td>
+																			</tr>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input id="TS_1_TS_1_1_2" name="TS_1$1" type="radio" value="TS_1_1_2" /><label for="TS_1_TS_1_1_2">Fair</label></span></td>
+																			</tr>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input id="TS_1_TS_1_1_3" name="TS_1$1" type="radio" value="TS_1_1_3" /><label for="TS_1_TS_1_1_3">Poor</label></span></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl11" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_11_tblQuestions" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">2. </span></td>
+																<td class="at al">
+																	<span class="stsQI">Please rate the following aspects of the trainer</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<table>
+																		<tbody>
+																			<tr>
+																				<td>&nbsp;
+																			  </td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Excellent</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Good</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Fair</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Poor</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">n/a</span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Did your trainer have a thorough grasp of the subject</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_0_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_0_0" name="TS_11$11_0" type="radio" value="TS_11_11_0_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_0_1');">
+																					<span class="stsCI qcp"><input checked="checked" id="TS_11_TS_11_11_0_1" name="TS_11$11_0" type="radio" value="TS_11_11_0_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_0_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_0_2" name="TS_11$11_0" type="radio" value="TS_11_11_0_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_0_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_0_3" name="TS_11$11_0" type="radio" value="TS_11_11_0_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_0_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_0_4" name="TS_11$11_0" type="radio" value="TS_11_11_0_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Did your trainer actively invite questions</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_1_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_1_0" name="TS_11$11_1" type="radio" value="TS_11_11_1_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_1_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_1_1" name="TS_11$11_1" type="radio" value="TS_11_11_1_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_1_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_1_2" name="TS_11$11_1" type="radio" value="TS_11_11_1_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_1_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_1_3" name="TS_11$11_1" type="radio" value="TS_11_11_1_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_1_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_1_4" name="TS_11$11_1" type="radio" value="TS_11_11_1_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Did your trainer answer the question posed</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_2_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_2_0" name="TS_11$11_2" type="radio" value="TS_11_11_2_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_2_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_2_1" name="TS_11$11_2" type="radio" value="TS_11_11_2_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_2_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_2_2" name="TS_11$11_2" type="radio" value="TS_11_11_2_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_2_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_2_3" name="TS_11$11_2" type="radio" value="TS_11_11_2_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_2_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_2_4" name="TS_11$11_2" type="radio" value="TS_11_11_2_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Was individual help provided when needed</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_3_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_3_0" name="TS_11$11_3" type="radio" value="TS_11_11_3_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_3_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_3_1" name="TS_11$11_3" type="radio" value="TS_11_11_3_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_3_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_3_2" name="TS_11$11_3" type="radio" value="TS_11_11_3_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_3_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_3_3" name="TS_11$11_3" type="radio" value="TS_11_11_3_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_3_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_3_4" name="TS_11$11_3" type="radio" value="TS_11_11_3_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Was your trainer prepared for class</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_4_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_4_0" name="TS_11$11_4" type="radio" value="TS_11_11_4_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_4_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_4_1" name="TS_11$11_4" type="radio" value="TS_11_11_4_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_4_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_4_2" name="TS_11$11_4" type="radio" value="TS_11_11_4_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_4_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_4_3" name="TS_11$11_4" type="radio" value="TS_11_11_4_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_4_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_4_4" name="TS_11$11_4" type="radio" value="TS_11_11_4_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Did your trainer have a professional demeanor</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_5_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_5_0" name="TS_11$11_5" type="radio" value="TS_11_11_5_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_5_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_5_1" name="TS_11$11_5" type="radio" value="TS_11_11_5_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_5_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_5_2" name="TS_11$11_5" type="radio" value="TS_11_11_5_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_5_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_5_3" name="TS_11$11_5" type="radio" value="TS_11_11_5_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_5_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_5_4" name="TS_11$11_5" type="radio" value="TS_11_11_5_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Did the trainer provide time for follow-ups</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_6_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_6_0" name="TS_11$11_6" type="radio" value="TS_11_11_6_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_6_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_6_1" name="TS_11$11_6" type="radio" value="TS_11_11_6_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_6_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_6_2" name="TS_11$11_6" type="radio" value="TS_11_11_6_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_6_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_6_3" name="TS_11$11_6" type="radio" value="TS_11_11_6_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_6_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_6_4" name="TS_11$11_6" type="radio" value="TS_11_11_6_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">How would you rate the overall skills of the trainer</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_7_0');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_7_0" name="TS_11$11_7" type="radio" value="TS_11_11_7_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_7_1');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_7_1" name="TS_11$11_7" type="radio" value="TS_11_11_7_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_7_2');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_7_2" name="TS_11$11_7" type="radio" value="TS_11_11_7_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_7_3');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_7_3" name="TS_11$11_7" type="radio" value="TS_11_11_7_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_11_11_7_4');">
+																					<span class="stsCI qcp"><input id="TS_11_TS_11_11_7_4" name="TS_11$11_7" type="radio" value="TS_11_11_7_4" /></span></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl10" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_10_tblQuestions" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">*3. </span></td>
+																<td class="at al">
+																	<span class="stsQI">Please rate the following aspects of the training class</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<table>
+																		<tbody>
+																			<tr>
+																				<td>&nbsp;
+																			  </td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Excellent</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Good</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Fair</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Poor</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">n/a</span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Did this class meet your expectations</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_0_0');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_0_0" name="TS_10$10_0" type="radio" value="TS_10_10_0_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_0_1');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_0_1" name="TS_10$10_0" type="radio" value="TS_10_10_0_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_0_2');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_0_2" name="TS_10$10_0" type="radio" value="TS_10_10_0_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_0_3');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_0_3" name="TS_10$10_0" type="radio" value="TS_10_10_0_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_0_4');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_0_4" name="TS_10$10_0" type="radio" value="TS_10_10_0_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Was the level of instruction appropriate</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_1_0');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_1_0" name="TS_10$10_1" type="radio" value="TS_10_10_1_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_1_1');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_1_1" name="TS_10$10_1" type="radio" value="TS_10_10_1_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_1_2');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_1_2" name="TS_10$10_1" type="radio" value="TS_10_10_1_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_1_3');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_1_3" name="TS_10$10_1" type="radio" value="TS_10_10_1_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_1_4');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_1_4" name="TS_10$10_1" type="radio" value="TS_10_10_1_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Was the length appropriate</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_2_0');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_2_0" name="TS_10$10_2" type="radio" value="TS_10_10_2_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_2_1');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_2_1" name="TS_10$10_2" type="radio" value="TS_10_10_2_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_2_2');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_2_2" name="TS_10$10_2" type="radio" value="TS_10_10_2_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_2_3');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_2_3" name="TS_10$10_2" type="radio" value="TS_10_10_2_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_2_4');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_2_4" name="TS_10$10_2" type="radio" value="TS_10_10_2_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Did the class begin on time</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_3_0');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_3_0" name="TS_10$10_3" type="radio" value="TS_10_10_3_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_3_1');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_3_1" name="TS_10$10_3" type="radio" value="TS_10_10_3_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_3_2');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_3_2" name="TS_10$10_3" type="radio" value="TS_10_10_3_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_3_3');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_3_3" name="TS_10$10_3" type="radio" value="TS_10_10_3_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_3_4');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_3_4" name="TS_10$10_3" type="radio" value="TS_10_10_3_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Was all of the equipment working properly</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_4_0');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_4_0" name="TS_10$10_4" type="radio" value="TS_10_10_4_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_4_1');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_4_1" name="TS_10$10_4" type="radio" value="TS_10_10_4_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_4_2');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_4_2" name="TS_10$10_4" type="radio" value="TS_10_10_4_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_4_3');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_4_3" name="TS_10$10_4" type="radio" value="TS_10_10_4_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_4_4');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_4_4" name="TS_10$10_4" type="radio" value="TS_10_10_4_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">How would you rate the manuals</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_5_0');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_5_0" name="TS_10$10_5" type="radio" value="TS_10_10_5_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_5_1');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_5_1" name="TS_10$10_5" type="radio" value="TS_10_10_5_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_5_2');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_5_2" name="TS_10$10_5" type="radio" value="TS_10_10_5_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_5_3');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_5_3" name="TS_10$10_5" type="radio" value="TS_10_10_5_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_10_10_5_4');">
+																					<span class="stsCI qcp"><input id="TS_10_TS_10_10_5_4" name="TS_10$10_5" type="radio" value="TS_10_10_5_4" /></span></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl7" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_7_tblQuestions" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">4. </span></td>
+																<td class="at al">
+																	<span class="stsQI">Please rate the following aspects of the training organization</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<table>
+																		<tbody>
+																			<tr>
+																				<td>&nbsp;
+																			  </td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Excellent</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Good</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Fair</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">Poor</span></td>
+																				<td class="ac lhp">
+																					<span class="stsCI">n/a</span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Registration process</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_0_0');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_0_0" name="TS_7$7_0" type="radio" value="TS_7_7_0_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_0_1');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_0_1" name="TS_7$7_0" type="radio" value="TS_7_7_0_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_0_2');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_0_2" name="TS_7$7_0" type="radio" value="TS_7_7_0_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_0_3');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_0_3" name="TS_7$7_0" type="radio" value="TS_7_7_0_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_0_4');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_0_4" name="TS_7$7_0" type="radio" value="TS_7_7_0_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Scheduling and timing</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_1_0');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_1_0" name="TS_7$7_1" type="radio" value="TS_7_7_1_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_1_1');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_1_1" name="TS_7$7_1" type="radio" value="TS_7_7_1_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_1_2');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_1_2" name="TS_7$7_1" type="radio" value="TS_7_7_1_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_1_3');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_1_3" name="TS_7$7_1" type="radio" value="TS_7_7_1_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_1_4');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_1_4" name="TS_7$7_1" type="radio" value="TS_7_7_1_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Choice of facility/venue</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_2_0');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_2_0" name="TS_7$7_2" type="radio" value="TS_7_7_2_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_2_1');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_2_1" name="TS_7$7_2" type="radio" value="TS_7_7_2_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_2_2');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_2_2" name="TS_7$7_2" type="radio" value="TS_7_7_2_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_2_3');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_2_3" name="TS_7$7_2" type="radio" value="TS_7_7_2_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_2_4');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_2_4" name="TS_7$7_2" type="radio" value="TS_7_7_2_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Parking and directions</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_3_0');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_3_0" name="TS_7$7_3" type="radio" value="TS_7_7_3_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_3_1');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_3_1" name="TS_7$7_3" type="radio" value="TS_7_7_3_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_3_2');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_3_2" name="TS_7$7_3" type="radio" value="TS_7_7_3_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_3_3');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_3_3" name="TS_7$7_3" type="radio" value="TS_7_7_3_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_3_4');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_3_4" name="TS_7$7_3" type="radio" value="TS_7_7_3_4" /></span></td>
+																			</tr>
+																			<tr class="stsChoiceAlt">
+																				<td class="al">
+																					<span class="stsQI">Refreshments</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_4_0');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_4_0" name="TS_7$7_4" type="radio" value="TS_7_7_4_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_4_1');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_4_1" name="TS_7$7_4" type="radio" value="TS_7_7_4_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_4_2');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_4_2" name="TS_7$7_4" type="radio" value="TS_7_7_4_2" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_4_3');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_4_3" name="TS_7$7_4" type="radio" value="TS_7_7_4_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_4_4');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_4_4" name="TS_7$7_4" type="radio" value="TS_7_7_4_4" /></span></td>
+																			</tr>
+																			<tr>
+																				<td class="al">
+																					<span class="stsQI">Cost and pricing</span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_5_0');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_5_0" name="TS_7$7_5" type="radio" value="TS_7_7_5_0" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_5_1');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_5_1" name="TS_7$7_5" type="radio" value="TS_7_7_5_1" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_5_2');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_5_2" name="TS_7$7_5" type="radio" value="TS_7_7_5_2" /></span></td>
+
+																				<td class="ac stsCH" onclick="rs('TS_7_7_5_3');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_5_3" name="TS_7$7_5" type="radio" value="TS_7_7_5_3" /></span></td>
+																				<td class="ac stsCH" onclick="rs('TS_7_7_5_4');">
+																					<span class="stsCI qcp"><input id="TS_7_TS_7_7_5_4" name="TS_7$7_5" type="radio" value="TS_7_7_5_4" /></span></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl3" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_3_tblChoices" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">5. </span></td>
+																<td class="at al">
+																	<span class="stsQI">Based on your experience at this training class, how likely are you to attend future training class with us?</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<table>
+																		<tbody>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input id="TS_3_TS_3_3_0" name="TS_3$3" type="radio" value="TS_3_3_0" /><label for="TS_3_TS_3_3_0">Very likely</label></span></td>
+																			</tr>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input id="TS_3_TS_3_3_1" name="TS_3$3" type="radio" value="TS_3_3_1" /><label for="TS_3_TS_3_3_1">Somewhat likely</label></span></td>
+																			</tr>
+																			<tr>
+																				<td class="at al rp stsCH">
+																					<span class="stsCI"><input id="TS_3_TS_3_3_2" name="TS_3$3" type="radio" value="TS_3_3_2" /><label for="TS_3_TS_3_3_2">Not likely</label></span></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl4" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_4_tblQuestion" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">6. </span></td>
+																<td class="at al">
+																	<span class="stsQI at">What was your favorite part of the training?</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<textarea class="stsComment txtStandardFont" id="TS_4_TS_4_4" name="TS_4$TS_4_4" style="height: 3.6em; width: 99%"></textarea></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl5" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_5_tblQuestion" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">7. </span></td>
+																<td class="at al">
+																	<span class="stsQI at">What was your least favorite part of the training?</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<textarea class="stsComment txtStandardFont" id="TS_5_TS_5_5" name="TS_5$TS_5_5" style="height: 3.6em; width: 99%"></textarea></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="at shp">
+											<div class="stsQuestion" id="pnl6" style="border-top: navy 1px solid; border-right: navy 1px solid; width: 100%; border-bottom: navy 1px solid; border-left: navy 1px solid; border-radius: 10px">
+												<div class="sp">
+													<table id="TS_6_tblQuestion" style="width: 100%">
+														<tbody>
+															<tr>
+																<td class="at al" style="width: 1%">
+																	<span class="stsQI">8. </span></td>
+																<td class="at al">
+																	<span class="stsQI at">Any other suggestions or comments to help us improve future training classes?</span></td>
+															</tr>
+															<tr>
+																<td>&nbsp;
+															  </td>
+																<td class="at" style="width: 75%">
+																	<textarea class="stsComment txtStandardFont" id="TS_6_TS_6_6" name="TS_6$TS_6_6" style="height: 3.6em; width: 99%"></textarea></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="stsErrorInner" id="ValidationSummary" style="display: none">
+						&nbsp;</div>
+					<br />
+					&nbsp; &nbsp; <input class="stsButton" id="btnSubmit" name="btnSubmit" type="submit" value="Submit" /></div>
+			</div>
+		</div>
+	</div><script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary"));
+//]]>
+</script><script type="text/javascript">
+//<![CDATA[
+var ValidationSummary = document.all ? document.all["ValidationSummary"] : document.getElementById("ValidationSummary");
+ValidationSummary.headertext = "Questions with a \'*\' are required";
+ValidationSummary.displaymode = "List";
+//]]>
+
+<p>
+	&nbsp;</p>
